@@ -2,6 +2,7 @@
   --clr-neutral-200: hsl(0, 0%, 98%);
   --clr-neutral-500: hsl(0, 0%, 41%);
   --clr-neutral-800: hsl(0, 0%, 8%);
+  --clr-neutral-900: hsl(0, 0%, 0%);
 
   --ff-primary: "Epilogue", sans-serif;
 }
@@ -9,6 +10,54 @@
 html,
 body {
   font-size: 18px;
+}
+
+.nav-toggle {
+  cursor: pointer;
+  border: 0;
+  width: 3em;
+  height: 3em;
+  padding: 0em;
+  border-radius: 50%;
+  /* background: var(--clr-neutral-900); */
+  color: var(--clr-neutral-900);
+  transition: opacity 250ms ease;
+
+  position: absolute;
+  right: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+  opacity: 0.75;
+}
+
+.hamburger {
+  width: 50%;
+  position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  margin: 0 auto;
+  height: 3px;
+  background: var(--clr-neutral-900);
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  width: 100%;
+}
+
+.hamburger::before {
+  transform: translateY(-6px);
+}
+
+.hamburger::after {
+  transform: translateY(3px);
 }
 
 .attribution {
