@@ -25,6 +25,12 @@ img {
   max-width: 100%;
   display: block;
 }
+header {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .nav-toggle {
   cursor: pointer;
@@ -73,6 +79,9 @@ img {
 
 .hamburger::after {
   transform: translateY(3px);
+}
+.nav {
+  display: none;
 }
 
 main {
