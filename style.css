@@ -86,7 +86,9 @@ header {
   transform: translateY(3px);
 }
 .nav {
-  display: none;
+  visibility: hidden;
+  height: 0;
+  position: absolute;
 }
 
 main {
