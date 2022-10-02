@@ -57,7 +57,7 @@ img {
   display: block;
   margin: 0 auto;
   height: 3px;
-  background: var(--clr-neutral-900);
+  background: var(--clr-neutral-800);
 }
 
 .hamburger::before,
@@ -74,6 +74,15 @@ img {
   transform: translateY(3px);
 }
 
+main {
+  text-align: center;
+}
+
+.heading_1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: var(--clr-neutral-800);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
