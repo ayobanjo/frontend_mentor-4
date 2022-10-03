@@ -90,7 +90,23 @@ header {
   height: 0;
   position: absolute;
 }
+.nav_visible {
+  visibility: visible;
+  height: auto;
+  position: relative;
+}
 
+.nav_list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: var(--clr-neutral-500);
+  text-transform: capitalize;
+}
 main {
   text-align: center;
 }
