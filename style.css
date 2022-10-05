@@ -175,4 +175,10 @@ main {
 }
 
 @media (min-width: 780px) {
+  .mobile_nav {
+    display: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
 }
