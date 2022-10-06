@@ -5,7 +5,6 @@ navToggle.addEventListener("click", () => {
   nav.classList.toggle("nav_visible");
   nav.style.color = "white";
   nav.style.right = "0";
-  // nav.classList.toggle("mobile_nav");
   navToggle.classList.toggle("open");
   navToggle.style.position = "fixed";
 });
