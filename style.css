@@ -109,14 +109,31 @@ header {
 .nav {
   visibility: hidden;
   height: 0;
-  position: absolute;
+  /* position: absolute; */
 }
 .nav_visible {
   visibility: visible;
   height: auto;
   position: relative;
+
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  min-height: 100vh;
+  z-index: 98;
+  background-color: var(--clr-neutral-500);
+  /* padding-top: 6.67rem; */
+  transition: 0.4s;
+  color: var(--clr-neutral-100);
+}
+.mobile_nav {
 }
 
+.nav_visible .open {
+  right: 0;
+}
 .nav_list {
   margin: 0;
   padding: 0;
@@ -177,9 +194,6 @@ main {
 }
 
 @media (min-width: 780px) {
-  .mobile_nav {
-    display: none;
-  }
   .nav-toggle {
     display: none;
   }
