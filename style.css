@@ -128,8 +128,8 @@ header {
   transition: 0.4s;
   color: var(--clr-neutral-100);
 }
-.mobile_nav {
-}
+/* .mobile_nav {
+} */
 
 .nav_visible .open {
   right: 0;
