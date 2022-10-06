@@ -53,6 +53,7 @@ header {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 1;
 }
 
 .nav-toggle:focus,
@@ -119,17 +120,15 @@ header {
   display: block;
   position: fixed;
   top: 0;
-  right: 0;
+  right: 100%;
   width: 50%;
   min-height: 100vh;
-  z-index: 98;
-  background-color: var(--clr-neutral-500);
+  z-index: 0;
+  background-color: var(--clr-neutral-100);
   /* padding-top: 6.67rem; */
-  transition: 0.4s;
-  color: var(--clr-neutral-100);
+
+  transition: all 0.4s ease-in-out;
 }
-/* .mobile_nav {
-} */
 
 .nav_visible .open {
   right: 0;
