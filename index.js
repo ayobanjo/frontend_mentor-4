@@ -1,13 +1,17 @@
 const navToggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".nav");
+const menuIcon = document.querySelector(".menu_btn");
 
-navToggle.addEventListener("click", () => {
-  nav.classList.toggle("nav_visible");
-  nav.style.color = "white";
-  nav.style.right = "0";
-  navToggle.classList.toggle("open");
-  navToggle.style.position = "fixed";
+menuIcon.addEventListener("click", () => {
+  menuIcon.classList.toggle("menu_icon-change");
 });
+// navToggle.addEventListener("click", () => {
+//   nav.classList.toggle("nav_visible");
+//   nav.style.color = "white";
+//   nav.style.right = "0";
+//   navToggle.classList.toggle("open");
+//   navToggle.style.position = "fixed";
+// });
 
 // let navOpen = false;
 // navToggle.addEventListener("click", () => {

@@ -37,6 +37,12 @@ header {
   margin: 0 auto;
   position: relative;
 }
+.menu_btn {
+  cursor: pointer;
+}
+.menu_icon-change {
+  content: url(./images/icon-close-menu.svg);
+}
 
 .nav-toggle {
   cursor: pointer;
