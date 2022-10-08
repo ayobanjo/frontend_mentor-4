@@ -4,6 +4,7 @@ const menuIcon = document.querySelector(".menu_btn");
 
 menuIcon.addEventListener("click", () => {
   menuIcon.classList.toggle("menu_icon-change");
+  nav.classList.toggle("nav_sidebar");
 });
 // navToggle.addEventListener("click", () => {
 //   nav.classList.toggle("nav_visible");
