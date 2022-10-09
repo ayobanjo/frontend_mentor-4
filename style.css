@@ -221,6 +221,9 @@ main {
   align-items: center;
   gap: 0.5rem;
 }
+.drop_down-menu {
+  display: none;
+}
 
 @media (min-width: 780px) {
   .nav-toggle {
