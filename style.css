@@ -215,6 +215,13 @@ main {
   color: hsl(228, 45%, 44%);
 }
 
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 @media (min-width: 780px) {
   .nav-toggle {
     display: none;
