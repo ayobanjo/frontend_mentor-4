@@ -48,6 +48,23 @@ header {
   content: url(./images/icon-close-menu.svg);
 }
 
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.drop_down-menu {
+  visibility: hidden;
+}
+/* .show_dropDown {
+  display: block;
+} */
+
+.drop_down-imgup {
+  content: url(./images/icon-arrow-up.svg);
+}
+
 .nav-toggle {
   cursor: pointer;
   border: 0;
@@ -213,16 +230,6 @@ main {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-.dropdown {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.5rem;
-}
-.drop_down-menu {
-  display: none;
 }
 
 @media (min-width: 780px) {
