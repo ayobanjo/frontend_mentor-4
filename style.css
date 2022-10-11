@@ -279,12 +279,14 @@ main {
   .menu_btn {
     display: none;
   }
+  .nav {
+    display: none !important;
+  }
   .desktop_nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
-    margin-left: 2rem;
   }
   .logo_img {
     margin-right: 3rem;
@@ -296,7 +298,6 @@ main {
     gap: 1.67rem;
   }
   .nav_item {
-    width: 0;
     margin: 0;
   }
   .nav_link-btn {
