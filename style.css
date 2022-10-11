@@ -117,7 +117,6 @@ header {
 
 .nav {
   height: 0;
-  /* position: absolute; */
   display: none;
 }
 
@@ -206,9 +205,7 @@ header {
 .drop_down-menu {
   margin-left: 1rem;
 }
-/* .show_dropDown {
-  display: block;
-} */
+
 .drop_list {
   display: flex;
   gap: 0.5rem;
