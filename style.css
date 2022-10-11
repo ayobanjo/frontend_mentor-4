@@ -48,23 +48,6 @@ header {
   content: url(./images/icon-close-menu.svg);
 }
 
-.dropdown {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 0.5rem;
-}
-.drop_down-menu {
-  display: none;
-}
-/* .show_dropDown {
-  display: block;
-} */
-
-.drop_down-imgup {
-  content: url(./images/icon-arrow-up.svg);
-}
-
 .nav-toggle {
   cursor: pointer;
   border: 0;
@@ -212,8 +195,27 @@ header {
 }
 .nav_link-btn:hover,
 .nav_link-btn:active {
-  outline: 1px solid var(--clr-neutral-900);
+  outline: 0.2px solid var(--clr-neutral-900);
 }
+
+/* Drop down menu */
+.dropdown {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+}
+.drop_down-menu {
+  display: none;
+}
+/* .show_dropDown {
+  display: block;
+} */
+
+.drop_down-imgup {
+  content: url(./images/icon-arrow-up.svg);
+}
+
 main {
   text-align: center;
 }
