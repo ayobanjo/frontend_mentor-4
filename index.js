@@ -2,6 +2,7 @@ const navToggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".nav");
 const menuIcon = document.querySelector(".menu_btn");
 const dropDowns = document.querySelectorAll(".dropdown");
+const removeHide = document.querySelectorAll(".drop_down-hide");
 
 menuIcon.addEventListener("click", () => {
   menuIcon.classList.toggle("menu_icon-change");
@@ -13,6 +14,7 @@ for (let i = 0; i < dropDowns.length; i++) {
   dropDowns[i].addEventListener("click", function () {
     const dropIcon = document.querySelectorAll(".drop_down-img");
     dropIcon[i].classList.toggle("drop_down-imgup");
+    removeHide[i].classList.toggle("drop_down-hide");
   });
 }
 
