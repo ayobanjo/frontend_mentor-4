@@ -306,4 +306,16 @@ main {
   .drop_down-hide {
     display: none;
   }
+  .drop_down-desktop-1 {
+    position: absolute;
+    /* transform: translate(20px , 100px); */
+    top: 49px;
+    left: 91px;
+  }
+  .drop_down-desktop-2 {
+    position: absolute;
+    /* transform: translate(127px, 80px); */
+    top: 49px;
+    left: 222px;
+  }
 }
