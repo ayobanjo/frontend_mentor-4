@@ -318,4 +318,23 @@ main {
     top: 49px;
     left: 222px;
   }
+  main {
+    display: flex;
+    width: 85%;
+    margin: 30px auto;
+    /* margin-left: 124px; */
+    flex: 1;
+    /* min-height: 100vh; */
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .hero {
+    flex: 1;
+    order: 1;
+  }
+  .content {
+    flex: 1;
+    text-align: left;
+  }
 }
