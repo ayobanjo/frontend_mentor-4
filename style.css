@@ -332,33 +332,33 @@ main {
   }
 
   main {
-    /* display: flex; */
     width: 85%;
     margin: 30px auto;
+    display: grid;
+    grid-template-columns: 53% 5% 42%;
+    grid-template-areas: "  grid_one . grid_two";
+    /* display: flex; */
     /* margin-left: 124px; */
     /* flex: 1; */
     /* min-height: 100vh; */
     /* align-items: center; */
     /* justify-content: space-between; */
     /* gap: 20px; */
-    display: grid;
-    grid-template-columns: 53% 5% 42%;
-    grid-template-areas: "  grid_one . grid_two";
   }
   .hero {
+    grid-area: grid_two;
     /* flex: 1; */
     /* order: 1; */
-    grid-area: grid_two;
   }
   img,
   picture {
     height: 100%;
   }
   .content {
-    /* flex: 1; */
     margin-top: 3.5rem;
     grid-area: grid_one;
     text-align: left;
+    /* flex: 1; */
   }
   .heading_1 {
     font-size: 4rem;
