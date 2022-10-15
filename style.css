@@ -232,7 +232,7 @@ main {
 }
 
 .heading_1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 1.5rem 0;
   color: var(--clr-neutral-800);
   word-wrap: break-word;
@@ -361,6 +361,9 @@ main {
   .heading_1 {
     font-size: 4rem;
     margin: 2rem 0;
+  }
+  .heading_span {
+    display: block;
   }
 
   .main_text {
