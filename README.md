@@ -74,6 +74,7 @@ for (let i = 0; i < dropDowns.length; i++) {
 ### Continued development
 
 - Better responsiveness, and how to make my pictures not distorted
+- I will also like to make use of a single navigation
 
 ### Useful resources
 
