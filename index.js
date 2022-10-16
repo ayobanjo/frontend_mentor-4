@@ -1,4 +1,4 @@
-const navToggle = document.querySelector(".nav-toggle");
+// const navToggle = document.querySelector(".nav-toggle");
 const nav = document.querySelector(".nav");
 const menuIcon = document.querySelector(".menu_btn");
 const dropDowns = document.querySelectorAll(".dropdown");
