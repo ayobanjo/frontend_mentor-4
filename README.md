@@ -75,6 +75,7 @@ for (let i = 0; i < dropDowns.length; i++) {
 
 - Better responsiveness, and how to make my pictures not distorted
 - I will also like to make use of a single navigation
+- Completing the grey area of the mobile design
 
 ### Useful resources
 
